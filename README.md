@@ -3,7 +3,7 @@
 **Esta clase implementa un JavaBeans y  Serializable podemos  utilizar framework como Lombok, Spring, etc.**
 **El método equals para realizar comparaciones de contenidos y hashCode para realizar comparaciones numéricas.**
 
-**this(); debe ser la primere línea a la llamada al constructor vacío.**
+**this(); debe ser la primer línea a la llamada al constructor vacío.**
 # Manejo de Mapas en Java
 **persona.entrySet() nos devuelve llave-valor y con .forEach(System.out::pritnln) nos devuelve todos  los elementos recorridos y no mantienen el orden de incepción. Tampoco se puede duplicar.**
 **Map va a almacenar llaves y valores con cadenas (String).**
