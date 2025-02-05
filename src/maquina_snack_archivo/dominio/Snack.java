@@ -1,3 +1,5 @@
+package maquina_snack_archivo.dominio;
+
 import java.io.Serializable;
 import java.util.Objects;
 
@@ -48,6 +50,10 @@ public class Snack implements Serializable {
                 ", nombre='" + nombre + '\'' +
                 ", precio=" + precio +
                 '}';
+    }
+
+    public String escribirSnack(){
+        return idSnack + "," + nombre + "," + precio;
     }
 
     @Override
